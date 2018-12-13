@@ -1,0 +1,61 @@
+
+*{
+	;
+	min-height: 100vh auto;
+	width: 100% auto;
+	margin:0vh;
+	margin-padding: 0;
+}
+
+.container{
+	min-height: 100vh;
+}
+
+.jumbotron {
+	text-align: center;
+	margin-top:0px;
+	background-image: url(assets/images/me.png);
+}
+
+
+.list-group1 {
+	margin: 0 auto;
+}
+
+.page {
+	min-height: 95vh;
+}
+
+.title1 {
+	font-size:100px;
+}
+.title2 {
+	font-size:20px;
+}
+
+.navbar {
+	height:40px;
+}
+
+/*COVERPAGE*/
+.home {
+	background-image: url(../images/bg.jpeg);
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	min-height:100vh;
+}
+
+.cover {
+	font-size:100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cover1 {
+	font-size:30px;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+
+.jumbotron {
+
+}
