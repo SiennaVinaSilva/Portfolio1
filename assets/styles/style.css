@@ -1,61 +1,92 @@
-
 *{
-	;
-	min-height: 100vh auto;
-	width: 100% auto;
-	margin:0vh;
-	margin-padding: 0;
+	/*reset*/
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
 }
 
-.container{
-	min-height: 100vh;
+.navbar {
+	background:none;
+}
+
+/*home*/
+.home{
+min-height: 100vh;
+background-image:url(../images/cover.png);
+background-size: cover;
+
 }
 
 .jumbotron {
 	text-align: center;
-	margin-top:0px;
-	background-image: url(assets/images/me.png);
+	height:auto;
+	width:100%;
+	background:none;
+	margin: 0;
+	padding: 0;
+}
+
+.welcome-message{
+	font-size:16px;
+	width:500px;
+	height:100px;
+}
+.welcome{
+	width:500px;
+	height:100px;
 }
 
 
-.list-group1 {
-	margin: 0 auto;
+.jum{
+	height:250px;
+	width:100%;
+	opacity: 0.7;
+	min-width:200px;
 }
 
-.page {
-	min-height: 95vh;
+
+.title{
+	text-align: center;
+	font-size: 40px;
+	font-color: white;
+}
+/*about*/
+
+.about{
+min-height: 100vh;
+font-size:16px;
+background-color:#D5D5D5;
 }
 
-.title1 {
-	font-size:100px;
+.heading-about{
+	font-size: 25px;
+	text-align: center;
 }
-.title2 {
-	font-size:20px;
-}
-
-.navbar {
-	height:40px;
-}
-
-/*COVERPAGE*/
-.home {
-	background-image: url(../images/bg.jpeg);
-  	background-repeat: no-repeat;
-  	background-size: 100%;
-  	min-height:100vh;
-}
-
-.cover {
-	font-size:100px;
-	font-family: 'Raleway', sans-serif;
-}
-
-.cover1 {
-	font-size:30px;
-	font-family: 'Raleway', sans-serif;
-	text-align: right;
-}
-
-.jumbotron {
+.details-about{
+	font-size:16px;
 
 }
+
+.about-details{
+	background-color:;
+	border-color: white;
+}
+
+#FDFDFD
+
+
+
+
+.projects{
+min-height: 100vh;	
+}
+
+.skills{
+min-height: 100vh;	
+}
+
+.contact{
+min-height: 100vh;	
+}
+
